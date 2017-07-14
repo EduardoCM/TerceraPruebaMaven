@@ -5,6 +5,9 @@ public class PersonaBean {
 	
 	public String name;
 	public String lastName;
+	public String phone;
+	
+	
 	public String getName() {
 		return name;
 	}
@@ -17,6 +20,14 @@ public class PersonaBean {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
+	public String getPhone() {
+		return phone;
+	}
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+	
+	
 	
 	
 	
